@@ -54,9 +54,6 @@
     <!-- If this is true, the IME will be shown at screen on for keyguard password view -->
     <bool name="kg_show_ime_at_screen_on">false</bool>
 
-    <!-- Allow the menu hard key to be disabled in LockScreen on some devices -->
-    <bool name="config_disableMenuKeyInLockScreen">true</bool>
-
     <!-- Do not translate!
          The URL that should be sent in an x-wap-profile header with an HTTP request.
          If the URL contains a '%s' format string then that substring will be replaced
@@ -278,9 +275,6 @@
     <!-- Boolean indicating whether the wifi chipset has background scan support -->
     <bool translatable="false" name="config_wifi_background_scan_support">false</bool>
 	
-    <!-- LED Flashlight -->
-    <bool name="config_enableTorch">true</bool>
-
     <!-- Hardware 'face' keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
          of the following keys present:
