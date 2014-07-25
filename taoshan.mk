@@ -76,6 +76,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/thermald-8930.conf:system/etc/thermald-8930.conf
 	
+# Temp fix for RIL
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/libril.so:system/lib/libril.so \
+    $(LOCAL_PATH)/prebuilt/librilutils.so:system/lib/librilutils.so
+
 # TWRP
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/rootdir/root/twrp.fstab:recovery/root/etc/twrp.fstab
