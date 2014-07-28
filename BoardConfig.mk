@@ -58,7 +58,7 @@ BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 
 TARGET_KERNEL_SOURCE := kernel/sony/msm8930
-TARGET_KERNEL_CONFIG := cyanogenmod_taoshan_defconfig
+TARGET_KERNEL_CONFIG := omni_taoshan_defconfig
 
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_QCOM_AUDIO_VARIANT := caf
