@@ -18,6 +18,12 @@
         "branch": "kk4.4"
     },
     {
+        "repository": "SlimRoms/device_qcom_common",
+        "target_path": "device/qcom/common",
+        "remote": "github",
+        "branch": "kk4.4"
+    },
+    {
         "repository": "CyanogenMod/android_hardware_sony_DASH",
         "target_path": "hardware/sony/DASH",
         "remote": "github",
